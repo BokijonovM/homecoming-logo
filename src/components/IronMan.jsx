@@ -3,7 +3,7 @@ import './ironman.css'
 
 function IronMan() {
     return (
-        <div>
+        <div className='d-flex justify-content-center'>
             <div className='body-1'>
                 <div className="reactor">
                     <div className="triangle"></div>

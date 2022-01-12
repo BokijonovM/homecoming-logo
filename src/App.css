@@ -5,12 +5,12 @@
 }
 
 body {
-  /* overflow-y: hidden;
-  overflow-x: hidden; */
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
   background-color: black !important;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 770px) {
   .main-row {
     flex-direction: column;
   }

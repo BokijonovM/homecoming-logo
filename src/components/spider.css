@@ -10,7 +10,7 @@ RESET *,
   align-items: center;
   height: 100vh;
   overflow: hidden;
-  width: 50vw;
+  width: 100vw;
   background-color: #000;
 }
 
@@ -32,7 +32,7 @@ RESET *,
   margin-bottom: 50px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 770px) {
   .container-1 {
     margin-top: 60px;
     display: flex;

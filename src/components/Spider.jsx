@@ -3,7 +3,7 @@ import './spider.css'
 
 function Spider() {
     return (
-        <div>
+        <div className='d-flex justify-content-center'>
             <div class='body-2'>
                 <div class="container-1">
                     <div class="head hex">

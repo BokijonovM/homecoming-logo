@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 function App() {
   return (
     <div className="App">
-      <Container>
+     
         <Row className='main-row' style={{ flexWrap: "nowrap" }}>
           <Col md={6} className='pr-0' style={{ paddingRight: "0px" }}>
             <IronMan />
@@ -16,8 +16,7 @@ function App() {
             <Spider />
           </Col>
         </Row>
-      </Container>
-
+     
     </div>
   );
 }

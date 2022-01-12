@@ -90,7 +90,7 @@
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  width: 50vw;
+  width: 100vw;
   min-height: 100vh;
   background-color: #000;
   margin: 0;
@@ -199,8 +199,8 @@
 .circle-2 {
   position: absolute;
   inset: 20px;
-  width: calc(100% - 60px);
-  height: calc(100% - 60px);
+  /* width: calc(100% - 60px);
+  height: calc(100% - 60px); */
   border-radius: 50%;
   border: 10px solid #69f1f1;
   -webkit-box-shadow: 0 0 30px 30px rgba(105, 241, 241, 0.2);
@@ -351,8 +351,8 @@
   position: absolute;
   inset: 0;
   z-index: 99;
-  width: 54px;
-  height: 54px;
+  /* width: 54px;
+  height: 54px; */
   border-radius: 50%;
   border: 5px solid;
   border-color: #69f1f1 transparent transparent;
@@ -433,8 +433,8 @@
   position: absolute;
   inset: 0;
   z-index: 99;
-  width: 13px;
-  height: 13px;
+  /* width: 13px;
+  height: 13px; */
   border-radius: 50%;
   border: 1px solid;
   border-color: #000 transparent transparent;
