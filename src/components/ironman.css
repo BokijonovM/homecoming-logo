@@ -91,7 +91,7 @@
   -ms-flex-pack: center;
   justify-content: center;
   width: 100vw;
-  min-height: 100vh;
+  min-height: 90vh;
   background-color: #000;
   margin: 0;
 }
@@ -106,7 +106,8 @@
   z-index: 99;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 155px;
+  width: 255px;
+  opacity: 0.7;
   aspect-ratio: 1;
   background-color: #69f1f1;
   -webkit-clip-path: polygon(50% 88%, 0 0, 100% 0);
@@ -120,8 +121,9 @@
   top: 45%;
   left: 50%;
   z-index: 999;
-  width: 120px;
-  height: 120px;
+  width: 190px;
+  height: 190px;
+
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   background-color: #000;
@@ -131,8 +133,8 @@
 
 .circle-1 {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 50%;
   background: -webkit-gradient(
     linear,
@@ -171,8 +173,8 @@
     to(rgba(99, 193, 223, 0.8))
   );
   background: linear-gradient(
-    rgba(105, 241, 241, 0.8),
-    rgba(99, 193, 223, 0.8)
+    rgba(105, 241, 241, 0.4),
+    rgba(99, 193, 223, 0.4)
   );
 }
 
@@ -278,8 +280,8 @@
 .circle-3::after {
   content: "";
   display: block;
-  width: 115px;
-  height: 115px;
+  width: 215px;
+  height: 215px;
   border-radius: 50%;
   border: 3px dotted rgba(105, 241, 241, 0.8);
   -webkit-animation: rotate-right 10s linear infinite;
@@ -308,8 +310,8 @@
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  width: 100%;
-  height: 100%;
+  width: 190px;
+  height: 190px;
   border-radius: 50%;
   border: 3px solid;
   border-color: #69f1f1 transparent transparent;
@@ -337,8 +339,8 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   z-index: 99;
-  width: 64px;
-  height: 64px;
+  width: 154px;
+  height: 154px;
   border-radius: 50%;
   -webkit-animation: rotate-left-right 10s infinite ease-in;
   animation: rotate-left-right 10s infinite ease-in;
@@ -385,8 +387,8 @@
 .circle-6::after {
   content: "";
   display: block;
-  width: 40px;
-  height: 40px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   border: 3px dashed #69f1f1;
   -webkit-animation: rotate-left 5s infinite ease-in;
@@ -405,8 +407,8 @@
 .circle-7::after {
   content: "";
   display: block;
-  width: 27px;
-  height: 27px;
+  width: 57px;
+  height: 57px;
   border-radius: 50%;
   background-color: #69f1f1;
   -webkit-animation: rotate-left 5s infinite ease-in;
